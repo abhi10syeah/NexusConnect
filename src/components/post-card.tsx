@@ -9,6 +9,7 @@ import type { Post } from "@/types";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { LikeButton } from "./like-button";
+import { Button } from "./ui/button";
 
 interface PostCardProps {
   post: Post;
