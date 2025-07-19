@@ -8,6 +8,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      body: ['Inter', 'sans-serif'],
+      headline: ['Inter', 'sans-serif'],
+    },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
